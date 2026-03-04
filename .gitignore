@@ -1,0 +1,15 @@
+# IDEs
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project specific
+backend/.env
+frontend/.env.local
+
+# Node modules (if top-level)
+node_modules/

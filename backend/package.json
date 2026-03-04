@@ -1,0 +1,41 @@
+{
+  "name": "base-backend",
+  "version": "1.0.0",
+  "description": "PIM SaaS Backend API",
+  "main": "src/server.ts",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch src/server.ts",
+    "start": "node dist/server.js",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@prisma/client": "^5.22.0",
+    "@prisma/internals": "^7.4.2",
+    "axios": "^1.13.6",
+    "bcryptjs": "^3.0.3",
+    "bull": "^4.16.5",
+    "cors": "^2.8.6",
+    "csv-stringify": "^6.6.0",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "html2canvas": "^1.4.1",
+    "joi": "^18.0.2",
+    "jsonwebtoken": "^9.0.3",
+    "jspdf": "^4.2.0",
+    "nodemailer": "^8.0.1",
+    "papaparse": "^5.5.3",
+    "pg": "^8.19.0",
+    "prisma": "^5.22.0",
+    "redis": "^5.11.0",
+    "sharp": "^0.34.5",
+    "uuid": "^13.0.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/node": "^25.3.3",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  }
+}
